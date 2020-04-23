@@ -25,7 +25,7 @@ type Msg
 
 main : Program Never Model Msg
 main = 
-  let list = List.concatMap (\x -> List.map (\y -> (x,y)) (List.range -3 6)) (List.range -6 10) -- [(x,y) | x <- [-6..10], y <- [-3..6]]
+  let list = List.concatMap (\x -> List.map (\y -> (x,y)) (List.range -3 6)) (List.range -6 11) -- [(x,y) | x <- [-6..10], y <- [-3..6]]
   in Html.program
     { init = ({keys = Set.empty, window = Nothing}, Task.perform WindowResize Window.size)
     , view = \{keys,window} ->
@@ -70,13 +70,14 @@ main =
   }
 
 keyColor : Int -> String
-keyColor n = 
-  let nn = n % 31
-  in if List.member nn [0,5,8,13,18,23,26]
-  then "#FFFFFF"
-  else if List.member nn [3,11,16,21,29, 2,10,15,20,28]
-  then "#404040"
-  else "#8080FF"
+--keyColor n =
+--  let nn = n % 31
+--  in if List.member nn [0,5,8,13,18,23,26]
+--  then "#FFFFFF"
+--  else if List.member nn [3,11,16,21,29, 2,10,15,20,28]
+--  then "#FFFFFF"
+--  else "#FFFFFF"
+keyColor n = "#4488cc"
 
 
 keyIndices : Dict Int (Int,Int)

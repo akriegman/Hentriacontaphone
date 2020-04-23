@@ -9848,82 +9848,7 @@ var _user$project$Main$keyIndices = _elm_lang$core$Dict$fromList(
 		}
 	});
 var _user$project$Main$keyColor = function (n) {
-	var nn = A2(_elm_lang$core$Basics_ops['%'], n, 31);
-	return A2(
-		_elm_lang$core$List$member,
-		nn,
-		{
-			ctor: '::',
-			_0: 0,
-			_1: {
-				ctor: '::',
-				_0: 5,
-				_1: {
-					ctor: '::',
-					_0: 8,
-					_1: {
-						ctor: '::',
-						_0: 13,
-						_1: {
-							ctor: '::',
-							_0: 18,
-							_1: {
-								ctor: '::',
-								_0: 23,
-								_1: {
-									ctor: '::',
-									_0: 26,
-									_1: {ctor: '[]'}
-								}
-							}
-						}
-					}
-				}
-			}
-		}) ? '#FFFFFF' : (A2(
-		_elm_lang$core$List$member,
-		nn,
-		{
-			ctor: '::',
-			_0: 3,
-			_1: {
-				ctor: '::',
-				_0: 11,
-				_1: {
-					ctor: '::',
-					_0: 16,
-					_1: {
-						ctor: '::',
-						_0: 21,
-						_1: {
-							ctor: '::',
-							_0: 29,
-							_1: {
-								ctor: '::',
-								_0: 2,
-								_1: {
-									ctor: '::',
-									_0: 10,
-									_1: {
-										ctor: '::',
-										_0: 15,
-										_1: {
-											ctor: '::',
-											_0: 20,
-											_1: {
-												ctor: '::',
-												_0: 28,
-												_1: {ctor: '[]'}
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}) ? '#404040' : '#8080FF');
+	return '#4488cc';
 };
 var _user$project$Main$keydown = _elm_lang$core$Native_Platform.outgoingPort(
 	'keydown',
@@ -9962,7 +9887,7 @@ var _user$project$Main$main = function () {
 				},
 				A2(_elm_lang$core$List$range, -3, 6));
 		},
-		A2(_elm_lang$core$List$range, -6, 10));
+		A2(_elm_lang$core$List$range, -6, 11));
 	return _elm_lang$html$Html$program(
 		{
 			init: {

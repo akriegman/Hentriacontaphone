@@ -63,7 +63,9 @@ function keydown(idx) {
 
   var osc = context.createOscillator();
   osc.setPeriodicWave(wave);
-  osc.frequency.value = 2 ** ((idx[0] * 5 + idx[1] * 3 - 18) / 31) * 440;
+  var ratio = 3 ** idx[0] * 5 ** idx[1]
+  ratio /= 2 ** Math.floor(Math.log(ratio) / Math.log(2))
+  osc.frequency.value = ratio * 440;
 
   var gain = context.createGain();
   gain.gain.value = 0.1;
@@ -86,7 +88,7 @@ function keyup(idx) {
 // Elm app
 var app = Elm.Main.fullscreen();
 
-//Elm -> JS
+// Elm -> JS
 app.ports.keydown.subscribe(keydown);
 app.ports.keyup.subscribe(keyup);
 
