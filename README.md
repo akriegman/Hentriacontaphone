@@ -14,4 +14,4 @@ A note on files:
 
 Main.js is the output of compiling Main.elm
 
-Main.elm and index.html are my code.
+Main.elm and index.html are the code.
