@@ -65,7 +65,7 @@ function keydown(idx) {
   osc.setPeriodicWave(wave);
   var ratio = 3 ** idx[0] * 5 ** idx[1]
   ratio /= 2 ** Math.floor(Math.log(ratio) / Math.log(2))
-  osc.frequency.value = ratio * 440;
+  osc.frequency.value = ratio * 220;
 
   var gain = context.createGain();
   gain.gain.value = 0.1;
