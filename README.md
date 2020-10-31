@@ -10,7 +10,8 @@ You can view the project [here](http://htmlpreview.github.com/?https://github.co
 
 Most computer keyboards aren't able to play certain combinations of keys. If you can't play chords, try using the punctuation keys or try using a different keyboard.
 
-I am borrowing the code from someone else's 31 tone equal temperment keyboard, which you can view [here](http://htmlpreview.github.com/?https://github.com/rtavenner/Hentriacontaphone/master/index.html).
+I am borrowing the code from Ryan Tavenner's 31 tone equal temperment keyboard, which you can view [here](http://htmlpreview.github.com/?https://github.com/rtavenner/Hentriacontaphone/master/index.html). I've only changed a couple lines of code.
+
 The placement of the F1, F2, ... keys is different on every keyboard, so this program works best with a chromebook keyboard.
 
 A note on files:
@@ -18,3 +19,5 @@ A note on files:
 Main.js is the output of compiling Main.elm
 
 Main.elm and index.html are the code.
+
+Update: I've recently discovered that Leonhard Euler sniped my idea 300 years ago. When you arrange the notes in a grid like this it's called a Tonnetz. Instruments using this layout have been made before, such as the Harmonetta.
