@@ -6,7 +6,7 @@ Press keys on your computer keyboard to play the keys on the instrument.
 
 In particular, try pressing three keys in a triangle to play a chord. Triangles pointing up are major chords and triangles pointing down are minor. A major scale is four keys in a row plus the three keys above. To travel around the circle of fifths move left or right, and to change keys by major thirds -- e.g. Giant Steps -- move up and down. Try making more complicated chords out of stacked thirds.
 
-You can view the project [here](http://htmlpreview.github.com/?https://github.com/akriegman/Hentriacontaphone/master/index.html).
+You can view the project [here](http://htmlpreview.github.io/?https://github.com/akriegman/Hentriacontaphone/master/index.html).
 
 Most computer keyboards aren't able to play certain combinations of keys. If you can't play chords, try using the punctuation keys or try using a different keyboard.
 
